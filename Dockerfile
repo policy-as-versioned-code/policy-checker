@@ -1,4 +1,4 @@
-FROM ghcr.io/kyverno/kyverno-cli:1.8-dev-latest@sha256:d9cc76e572df60b9068dcd5dff82455d179e192131e0767839b8aaf0d25dcfee as kyverno-cli
+FROM ghcr.io/kyverno/kyverno-cli:1.8-dev-latest@sha256:b3b2050592e1bdeed5c76522ecad6ec19cfaffe693774b9a0a90476741a189df as kyverno-cli
 
 FROM alpine/k8s:1.22.6@sha256:00ac10bcb759102470101b0805b1609c0d1143241e4c4f8a1d3fcbbb91f3e86d
 
